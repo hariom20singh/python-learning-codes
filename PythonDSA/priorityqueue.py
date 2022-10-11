@@ -1,5 +1,4 @@
 # A simple implementation of Priority Queue
-# using Queue.
 class PriorityQueue(object):
 	def __init__(self):
 		self.queue = []
