@@ -1,3 +1,7 @@
+"""
+Linked List implementation with many features, including, append, push, append at position, delete at position, detect cycle, etc.
+"""
+
 class Node:
     def __init__(self, data):
         self.data = data
