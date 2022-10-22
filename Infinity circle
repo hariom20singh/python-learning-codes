@@ -5,7 +5,7 @@ alex = turtle.Turtle()
 alex.speed(0)
 alex.hideturtle()
 
-while (1<2):
+while true:
     for clr in ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']:
         alex.color(clr)
         alex.forward(100)
