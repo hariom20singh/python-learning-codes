@@ -16,7 +16,7 @@ def pythagoreanTriplets(limits) :
             b = 2 * m * n
             c = m * m + n * n
  
-            # if c is greater than
+            # if c is greater than a and b
             # limit then break it
             if c > limits :
                 break
