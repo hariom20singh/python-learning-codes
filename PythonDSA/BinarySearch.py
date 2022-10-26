@@ -1,3 +1,4 @@
+# Binary search bubble shot program
 def binarySearch(nums,val):
     low=0
     up=len(nums) -1
@@ -16,7 +17,7 @@ def binarySearch(nums,val):
     
 
 
-inp = [4,7,8,12,45,99]
+inp = [4,7,8,12,45,99,101]
 key=int(input("Enter the num to search:\n"))
 
 out =  binarySearch(inp,key)
